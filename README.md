@@ -9,10 +9,10 @@ Features
 --------
 
 -  Simple setup
--  Two main methods to use it
+-  2 ways to use it
 -  Automatically redirects when it is the Sabbath
 -  Support for overriding
-- Supports Django 2.2 +
+-  Supports Django 2.2 +
 
 
 Get Started
@@ -46,5 +46,5 @@ Changelogs
 Help
 ----
 
-Help is always welcome!
+Help improving this package to meet our project goals is always welcome. :)
 
