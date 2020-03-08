@@ -18,7 +18,7 @@ Features
 Get Started
 -----------
 
-Install from Github source:
+**Install from Github source:**
 
     pip install git+git://github.com/Correct-Syntax/Keep-Sabbath.git
 
@@ -38,8 +38,7 @@ Coming soon
 Changelogs
 -------------
 
-0.5.0
-^^^^^
+**0.5.0**
     
 - Alpha Release
 
