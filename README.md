@@ -33,7 +33,7 @@ Install Requires
 Quickstart & Documentation
 ==========================
 
-Coming soon
+Visit https://correctsyntax.com/software/keep-sabbath/#getstarted for documentation.
 
 Changelogs
 -------------
