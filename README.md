@@ -25,15 +25,14 @@ Get Started
 Install Requires 
 ----------------
 
--  `django`_ >=2.2
-.. _django: http://djangoproject.com
+`django`>=2.2 http://djangoproject.com
 
 
 
 Quickstart & Documentation
 ==========================
 
-Visit https://correctsyntax.com/software/keep-sabbath/#getstarted for documentation.
+Visit https://correctsyntax.com/software/keep-sabbath/ for documentation & quickstart.
 
 Changelogs
 -------------
