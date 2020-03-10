@@ -25,14 +25,17 @@ Get Started
 Install Requires 
 ----------------
 
-`django`>=2.2 http://djangoproject.com
+django>=2.2 
+
+``pip install django``
 
 
 
-Quickstart & Documentation
-==========================
 
-Visit https://correctsyntax.com/software/keep-sabbath/ for documentation & quickstart.
+Documentation
+=============
+
+Visit https://correctsyntax.com/software/keep-sabbath/ for the latest documentation.
 
 Changelogs
 -------------
