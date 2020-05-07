@@ -35,7 +35,7 @@ django>=2.2
 Documentation
 =============
 
-Visit https://correctsyntax.com/software/keep-sabbath/ for the latest documentation.
+Visit https://correctsyntax.com/projects/keep-sabbath/ for the latest documentation.
 
 Changelogs
 -------------
