@@ -1,0 +1,216 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="container col-12 mt-2 mb-4">
+  <div class="row card px-0 border-0 rounded-0 pt-3">
+    <div class="row col-12 card-body">
+      <div class="col-12">
+        <h1 class="text-dark pl-md-5 ml-md-5 mt-3 pt-2"><strong>Sabbath Redirects For Django-Powered Websites.</strong></h1>
+        <h5 class="text-dark pl-md-5 ml-md-5">A free &amp; open-source Django app to provide easy Sabbath and Holy-day redirects.</h5>
+        <span class="pl-md-5 ml-md-5">
+          <a class="btn btn-lg btn-success text-light mt-2 mx-1 px-5" href="{% url "home" %}#getstarted">Get Started</a>
+          <a class="btn btn-lg btn-light text-secondary border border-secondary mt-2 mx-1 px-5" href="{% url "home" %}#about">Learn More</a>
+        </span>
+      </div>
+      <div class="col-12 mx-auto">
+        <div class="row">
+          <svg class="mx-auto" width="340" height="340" role="img" focusable="false" viewBox="0 0 52.917 52.917" xmlns="http://www.w3.org/2000/svg">
+            <g transform="translate(0 -244.08)">
+            <g transform="matrix(.64043 0 0 .64043 -40.687 191.31)">
+              <path d="m72.854 118.87 20.221 18.899v-37.797z" style="color:#000000;fill:#28a745;paint-order:stroke fill markers;stroke-linejoin:round;stroke-width:2;stroke:#28a745"/>
+              <path d="m92.697 114.34v9.4493h25.986c3.9701 0 7.087 3.1183 7.087 7.087v4.7246c0 3.9734-3.1168 7.087-7.087 7.087h-2.3623v9.4493h2.3623c9.077 0 16.536-7.4602 16.536-16.536v-4.7246c0-9.076-7.4593-16.536-16.536-16.536z" style="color:#000000;fill:#28a745;stroke-linejoin:round;stroke-width:.9;stroke:#28a745"/>
+            </g>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
+<div id="about"></div>
+    <div class="row bg-light py-5 montserrat-light-font">
+      <div class="container pt-4 px-3 mx-0 mx-auto">
+        <div class="row mx-auto">
+          <h2 class="px-3 mx-auto text-center text-dark my-4"><strong>What Is Django Keep-Sabbath?</strong></h2>
+        </div>
+        <div class="row mx-auto">
+            <h5 class="px-3 mx-auto text-center text-dark my-4">Django Keep-Sabbath is a free &amp; open source Django app to automatically redirect visitors coming to a website when it is the Sabbath or a Holy day.</h5>
+        </div>  
+        <div class="row mx-auto">
+          <p class="px-3 mx-auto text-dark mt-4">Keep-Sabbath is for webmasters with e-commerce shops, blogs, etc. who would like to keep the Biblical 7th-day Sabbath and other Holy days of the Bible Holy. The django app allows you to easily setup a system for a Django-powered website that will automatically redirect visitors to a single page (explaining about the Sabbath, redirect, etc.) if it is the Sabbath day or another Holy day.</p> 
+          <p class="px-3 mx-auto text-dark">The app uses internal, offline calculations (via the SolarTime module) and the current date/time of the server to figure out if it is the Sabbath day (thus, if the user should be redirected), so you do not have to do it manually. It is optimized for performance and speed.</p> 
+          <p class="px-3 mx-auto text-dark">There is also an option to manually override it as well, which is useful for other Biblical Holy days.</p>
+          <p class="px-3 mx-auto text-dark my-1">
+          The timing is based on the understanding that the Sabbath day starts on 6th day ("friday") evening and ends on 7th day ("saturday") evening, according to the Bible.</p>
+        </div> 
+        <div class="row mx-auto">
+          <p class="px-3 mx-auto text-dark mt-4"><i>"If thou turn away thy foot from the sabbath, [from] doing thy pleasure on My holy day; and call the sabbath a delight, the holy of Yahweh, honourable; and shalt honour him, not doing thine own ways, nor finding thine own pleasure, nor speaking [thine own] words:<br>
+          Then shalt thou delight thyself in Yahweh; and I will cause thee to ride upon the high places of the earth, and feed thee with the heritage of Jacob thy father: for the mouth of Yahweh hath spoken [it]."</i></p>
+          <p class="px-3 text-dark">-Isaiah 58:13-14</p>
+        </div> 
+      </div>
+    </div>
+    <div id="features"></div>
+    <div class="row rounded-0 py-5 montserrat-light-font">
+      <div class="container pt-4 px-0 mx-0 mx-auto">
+        <div class="row mx-auto">
+          <h2 class="px-3 mx-auto text-center text-dark my-4"><strong>Django Keep-Sabbath Features</strong></h2>
+        </div>
+        <div class="row mx-auto">
+          <div class="col-12 col-lg-4 py-4">
+            <h5 class="px-3 mx-auto text-center text-dark my-4"><strong><span class="text-success">•</span> Simple setup</strong></h5>
+          </div>
+          <div class="col-12 col-lg-4 py-4">
+            <h5 class="px-3 mx-auto text-center text-dark my-4"><strong><span class="text-success">•</span> 2 ways to use it</strong></h5>
+          </div>
+          <div class="col-12 col-lg-4 py-4">
+            <h5 class="px-3 mx-auto text-center text-dark my-4"><strong><span class="text-success">•</span> Support for overriding</strong></h5>
+          </div>
+        </div>  
+        <div class="row mx-auto">
+          <div class="col-12 col-lg-4 py-4">
+            <h5 class="px-3 mx-auto text-center text-dark my-4"><strong><span class="text-success">•</span> Automatically redirects</strong></h5>
+          </div>
+          <div class="col-12 col-lg-4 py-4">
+            <h5 class="px-3 mx-auto text-center text-dark my-4"><strong><span class="text-success">•</span> Supports Django 2.2, 3.0 +</strong></h5>
+          </div>
+          <div class="col-12 col-lg-4 py-4">
+            <h5 class="px-3 mx-auto text-center text-dark my-4"><strong><span class="text-success">•</span> Free &amp; open source</strong></h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="getstarted"></div>
+    <div class="row bg-light rounded-0 py-5 montserrat-light-font">
+      <div class="container pt-4 px-0 mx-0 mx-auto">
+        <div class="row mx-auto">
+          <h2 class="px-3 mx-auto text-center text-dark my-4"><strong>Get Started Using Django Keep-Sabbath</strong></h2>
+        </div>
+        <div class="row mx-auto">
+          <div class="col-12 col-lg-6 py-4">
+            <div class="card bg-light">
+              <div class="card-header"><h5>1. Install package</h5></div>
+              <div class="card-body">
+                <p class="card-text"><i>Django Keep-Sabbath is best installed via PyPI.</i></p>
+                <p class="card-text">To install the latest version, run:<br> <code>pip install keep-sabbath</code></p>
+                <p class="card-text">or install from Github source:<br> <code>pip install git+git://github.com/Correct-Syntax/Keep-Sabbath.git</code></p>
+                <p class="card-text"><strong>Make sure to have <i>Django</i> version 2.2 or higher installed on your system.</strong></p>
+                <p class="card-text">To install the latest version, run:<br><code>pip install django --upgrade</code></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 py-4">
+            <div class="card bg-light">
+              <div class="card-header"><h5>2. Setup app and urls.py</h5></div>
+              <div class="card-body">
+                <p class="card-text">Add <code>keep_sabbath</code> to INSTALLED_APPS in settings.py for your project:</p>
+                <p class="card-text"><pre><code>
+      INSTALLED_APPS = (
+        ...
+        'keep_sabbath',
+        ...
+    )
+                </code></pre>
+                </p>
+                <p class="card-text">Include <code>keep_sabbath.urls</code> inside the urlpatterns list in <i>urls.py</i> for your project:</p>
+                <p class="card-text"><pre><code>
+    from django.contrib import admin
+    from django.urls import path, include
+    
+    urlpatterns = [
+        ...
+        path('sabbath-redirect/', include('keep_sabbath.urls')),
+        ...
+    ]
+                </code></pre>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 py-4">
+            <div class="card bg-light">
+              <div class="card-header"><h5>3. Configure settings</h5></div>
+              <div class="card-body">
+                <p class="card-text">Add <code>SABBATH_REDIRECT_TEMPLATE</code> in <i>settings.py</i> for your project and set it to the name of the template you want visitors to be redirected to when it is the Sabbath or a Holy Day:</p>
+                <p class="card-text"><pre><code>
+    SABBATH_REDIRECT_TEMPLATE = "sabbath/redirect.html"
+                </code></pre>
+                </p>
+                <p class="card-text"><strong>Don't forget to make the HTML template and/or directory you specify for the SABBATH_REDIRECT_TEMPLATE setting.</strong></p>
+                <p class="card-text"><code>Add SABBATH_MANUAL_OVERRIDE</code> in <i>settings.py</i> for your project and set it to False if you do not want to override or True if you do (e.g: on a Holy day you will want to set this to True):</p>
+                <p class="card-text"><pre><code>
+    SABBATH_MANUAL_OVERRIDE = False # or True if you want to override
+                </code></pre>
+                </p>
+                <p class="card-text">Due to the fact that sunrise and sunset times depend on your location, you will need to set your location. Look up the latitude and longitude of your area and add the following settings.</p>
+                <p class="card-text">Add <code>SABBATH_COORDS_LATITUDE</code> in <i>settings.py</i> for your project and set it to the latitude of your area:</p>
+                <p class="card-text"><pre><code>
+    SABBATH_COORDS_LATITUDE = yourarealatitudeasafloat
+                </code></pre>
+                </p>
+                <p class="card-text">Add <code>SABBATH_COORDS_LONGITUDE</code> in <i>settings.py</i> for your project and set it to the longitude of your area:</p>
+                <p class="card-text"><pre><code>
+    SABBATH_COORDS_LONGITUDE = yourarealongitudeasafloat
+                </code></pre>
+                </p>
+                <p class="card-text">Add <code>SABBATH_LOCAL_TIMEZONE</code> in <i>settings.py</i> for your project and set it to the timezone of your area:</p>
+                <p class="card-text"><pre><code>
+    SABBATH_LOCAL_TIMEZONE = 'US/Central' # Set this to a pytz acceptable timezone (see below)
+                  </code></pre>
+                </p>
+                <p class="card-text">Valid timezone values can be seen <a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones">here</a>.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 py-4">
+            <div class="card bg-light">
+              <div class="card-header"><h5>4. Use in views.py</h5></div>
+              <div class="card-body">
+                <p class="card-text">There are two ways to use Django Keep-Sabbath in your <i>views.py</i> file:</p>
+                <p class="card-text">1. Use the <code>@redirect_if_sabbath</code> decorator in your <i>views.py</i> file:</p>
+                <p class="card-text"><pre><code>
+    from keep_sabbath import redirect_if_sabbath
+    
+    # Method 1 (easier, but less control)
+    @redirect_if_sabbath
+    def my_firstview(request):
+        ...
+                </code></pre>
+                </p>
+                <p class="card-text">2. Use the <code>is_sabbath</code> function in your <i>views.py</i> file:</p>
+                <p class="card-text"><pre><code>
+    from keep_sabbath import is_sabbath
+    
+    # Method 2 (you figure out the view logic, but more control)
+    def my_secondview(request):
+        ...
+        if is_sabbath() == True:
+          ...
+                </code></pre>
+                </p>
+                <p class="card-text">Both methods can be used interchangably and in the same <i>views.py</i> file and project.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="helpdevelop"></div>
+    <div class="row py-5 montserrat-light-font">
+      <div class="container py-4 px-3 mx-auto">
+        <div class="row mx-auto">
+          <h2 class="px-3 mx-auto text-center text-dark my-4"><strong>Want To Help Develop Django Keep-Sabbath?</strong></h2>
+        </div>
+        <div class="row mx-auto">
+            <h5 class="px-3 mx-auto text-center text-dark my-4">Django Keep-Sabbath is a free &amp; open source Django app hosted on Github and PyPI. Help improving this package to meet the project goals is always welcome. :)</h5>
+        </div>  
+        <div class="row mx-auto">
+          <a class="btn btn-lg btn-success text-light text-light mt-2 mx-auto" href="https://github.com/Correct-Syntax/Keep-Sabbath">View Github Repo <svg class="pb-1" style="width: 20px; height: 20px;" xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg></a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+{% endblock %}

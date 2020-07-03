@@ -1,0 +1,18 @@
+{% load static %}
+<nav id="mainNav" class="navbar bg-light static-top p-0">
+    <div class="row col-12 mx-0 px-0">
+        <div class="row col-12 col-sm-2 mx-0">
+            <a class="mx-auto px-1"  href="{% url 'home' %}">
+                <img class="mx-auto mx-sm-auto px-1" width=150 height=75 src="{% static 'Icon.png' %}" alt="Keep Sabbath"/>
+            </a>
+        </div>
+        <div class="row col-12 col-sm-10 px-1 mx-auto my-auto">
+            <span class="my-2 mx-sm-1 mx-auto">
+                <a class="navbar-link text-dark mx-2" href="{% url 'home' %}">Home</a>
+                <a class="navbar-link text-dark mx-2" href="{% url 'home' %}#about">About</a>
+                <a class="navbar-link text-dark mx-2" href="{% url 'home' %}#features">Features</a>
+                <a class="navbar-link text-dark mx-2" href="{% url 'home' %}#getstarted">Usage</a>
+            </span>
+        </div>
+    </div>
+</nav>

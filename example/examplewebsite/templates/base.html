@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Noah Rahm">
+
+        <title>{% block title %}Home{% endblock %} | Keep Sabbath Example Website</title>
+
+        <link href="{% static 'css/bootstrap/bootstrap.min.css' %}" rel="stylesheet">
+        <link href="{% static 'css/keep-sabbath.css' %}" rel="stylesheet"> 
+    </head>
+    <body>
+        {% block navbar %}{% include 'navbar.html' %}{% endblock %}
+        
+        <div class="container col-12 mx-auto px-auto ml-0 mr-0 pl-0 pr-0">
+        {% block content %}
+        {% endblock %}
+        </div>
+
+        {% block footer %}{% include 'footer.html' %}{% endblock %}
+
+        <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    </body>
+</html>
