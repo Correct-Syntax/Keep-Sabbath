@@ -34,9 +34,7 @@ The timing is based on the understanding that the 7th-day Sabbath day starts on 
 Then shalt thou delight thyself in Yahweh; and I will cause thee to ride upon the high places of the earth, and feed thee with the heritage of Jacob thy father: for the mouth of Yahweh hath spoken it." -Isaiah 58:13-14*
 
 There are many more verses regarding the importance of keeping the 7th-day Sabbath in the Bible.
-django>=2.2 
 
-``pip install django``
 
 # Requirements
 
