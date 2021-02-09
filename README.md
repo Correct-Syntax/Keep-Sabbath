@@ -3,12 +3,10 @@ Keep-Sabbath
 
 Keep Sabbath is a django app to automatically redirect website visitors when it is the Sabbath day, with support for overriding on other Biblical Holy days.
 
-!["Keep Sabbath"](keep-sabbath-logo.png?raw=true "Keep Sabbath")
-
 
 # Introduction
 
-Keep-Sabbath is for webmasters with e-commerce shops, blogs, etc. who would like to keep the Biblical 7th-day Sabbath and other Holy days of the Bible Holy. 
+Keep-Sabbath is for webmasters with e-commerce shops, blogs, etc. who would like to keep the Biblical 7th-day Sabbath and other Holy days of the Bible Holy.
 
 The django app allows you to easily setup a system for a Django-powered website that will automatically redirect visitors to a single page (explaining about the Sabbath, redirect, etc.) if it is the Sabbath day or another Holy day.
 
@@ -40,12 +38,9 @@ There are many more verses regarding the importance of keeping the 7th-day Sabba
 
   **Python 3.5 or higher**
 
-  * `django`_ 2.2, 3.0+
-  * `pytz`
-
-  * *(optional) ``solartime`` module*
-
-.. _django: http://djangoproject.com
+  * ``django`` 2.2, 3.0+
+  * ``pytz``
+  * ``solartime`` module (optional)
 
 
 # Documentation
