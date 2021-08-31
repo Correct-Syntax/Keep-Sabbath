@@ -45,7 +45,7 @@ There are many more verses regarding the importance of keeping the 7th-day Sabba
 
 # Documentation
 
-The latest documentation can be found at the <a href="https://correctsyntax.com/projects/keep-sabbath/">Keep-Sabbath Homepage</a>
+The documentation can be found in the Keep-Sabbath demo.
 
 
 # Development
