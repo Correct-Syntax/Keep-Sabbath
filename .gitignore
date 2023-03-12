@@ -1,3 +1,9 @@
 
 # Ignore .pyc files
 *.pyc 
+
+# Ignore env
+Lib
+Include
+Scripts
+pyvenv.cfg
