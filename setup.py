@@ -3,7 +3,10 @@ from setuptools import setup
 
 setup(
   name = 'keep_sabbath',   
-  packages = ['keep_sabbath'],   
+  packages = [
+    'keep_sabbath',
+    'keep_sabbath.vendor',
+  ],   
   version = '0.7.0',
   license='BSD 3-Clause',   
   description = 'Django app to automatically redirect users when it is the Sabbath day, with support for overriding on other Biblical Holy days.',
