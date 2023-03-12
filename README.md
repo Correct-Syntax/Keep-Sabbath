@@ -13,6 +13,8 @@ The app uses internal, offline calculations (via the SolarTime module) and the c
 
 There is also an option to manually override it as well, which is useful for other Biblical Holy days.
 
+The timing is based on the understanding that the 7th-day Sabbath day starts on 6th day ("Friday") evening and ends on 7th day ("Saturday") evening, according to the Bible.
+
 
 ## Features
 
@@ -23,13 +25,10 @@ There is also an option to manually override it as well, which is useful for oth
 - Supports Django 3.2+
 
 
-## Requirements
+## Installation
 
-**Python 3.8 or higher**
-
-- ``django`` 3.2+
-- ``pytz``
-- ``solartime`` module (optional)
+- ``pip install keep_sabbath``
+- ``pip install pytz``
 
 
 ## Documentation
@@ -37,18 +36,18 @@ There is also an option to manually override it as well, which is useful for oth
 The documentation can be found in the demo: ``example/examplewebsite``.
 
 
-## Basis
+## Contributing
 
-The timing is based on the understanding that the 7th-day Sabbath day starts on 6th day ("Friday") evening and ends on 7th day ("Saturday") evening, according to the Bible.
-
-*"If thou turn away thy foot from the sabbath, from doing thy pleasure on My holy day; and call the sabbath a delight, the holy of Yahweh, honourable; and shalt honour him, not doing thine own ways, nor finding thine own pleasure, nor speaking thine own words: Then shalt thou delight thyself in Yahweh; and I will cause thee to ride upon the high places of the earth, and feed thee with the heritage of Jacob thy father: for the mouth of Yahweh hath spoken it." -Isaiah 58:13-14*
-
-There are many more verses regarding the importance of keeping the 7th-day Sabbath in the Bible.
+**All contributions are welcome!** Feel free to open a PR or ask questions. :)
 
 
-## Development
+## Releasing on PyPI
 
-Help improving this package to meet the project goals is always welcome. :)
+Navigate to the root directory
+
+Run ``py -m build``
+
+Then run ``twine upload dist/*`` and follow the prompts.
 
 
 ## License
