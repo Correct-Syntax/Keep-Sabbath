@@ -1,4 +1,4 @@
-# Keep-Sabbath Copyright (c) 2019-2020 Noah Rahm, Correct Syntax.
+# Keep-Sabbath Copyright (c) 2019-2023 Noah Rahm.
 
 # Redistribution and use in source and binary forms, with or without modification,
 # are permitted provided that the following conditions are met:
@@ -10,9 +10,9 @@
 #        notice, this list of conditions and the following disclaimer in the
 #        documentation and/or other materials provided with the distribution.
 
-#     3. The names of Correct Syntax and Noah Rahm may not be used to endorse
-#        or promote products derived from this software without specific prior
-#        written permission.       
+#     3. Neither the name of the copyright holder nor the names of its contributors 
+#     may be used to endorse or promote products derived from this software without 
+#     specific prior written permission.
 
 # THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
 # ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
@@ -37,8 +37,6 @@ The app uses internal, offline calculations (via the SolarTime module) and the c
 However, there is an option to manually override it as well, which is useful for other Biblical Holy days.
 
 The timing is based on the understanding that the Sabbath day starts on 6th day ("friday") evening and ends on 7th day ("saturday") evening, according to the Bible.
-
-See https://correctsyntax.com for updates, documentation, news and other software.
 
 "If thou turn away thy foot from the sabbath, [from] doing thy pleasure on My holy day; and call the sabbath a delight, the holy of Yahweh, honourable; and shalt honour him, not doing thine own ways, nor finding thine own pleasure, nor speaking [thine own] words:
 Then shalt thou delight thyself in Yahweh; and I will cause thee to ride upon the high places of the earth, and feed thee with the heritage of Jacob thy father: for the mouth of Yahweh hath spoken [it]." -Isaiah 58:13-14

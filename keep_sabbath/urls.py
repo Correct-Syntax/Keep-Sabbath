@@ -1,9 +1,9 @@
-from django.conf.urls import url
+from django.urls import re_path
 
 from . import views 
 
 app_name = 'keep_sabbath'
 
 urlpatterns = [
-    url(r'^$', views.keep_sabbath_page_view, name='sabbath-redirect'),
+    re_path(r'^$', views.keep_sabbath_page_view, name='sabbath-redirect'),
 ]

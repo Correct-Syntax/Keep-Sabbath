@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
 
-class KeepsabbathConfig(AppConfig):
-    name = 'keepsabbath'
+class KeepSabbathConfig(AppConfig):
+    name = 'keep_sabbath'
