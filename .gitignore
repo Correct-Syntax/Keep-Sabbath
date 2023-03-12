@@ -7,3 +7,7 @@ Lib
 Include
 Scripts
 pyvenv.cfg
+
+# Ignore packaging stuff
+keep_sabbath.egg-info
+dist
