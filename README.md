@@ -1,10 +1,9 @@
-Keep-Sabbath
-============
+# Keep-Sabbath
 
-Keep Sabbath is a django app to automatically redirect website visitors when it is the Sabbath day, with support for overriding on other Biblical Holy days.
+Keep Sabbath is a Django app to automatically redirect website visitors when it is the Sabbath day, with support for overriding on other Biblical Holy days.
 
 
-# Introduction
+## Introduction
 
 Keep-Sabbath is for webmasters with e-commerce shops, blogs, etc. who would like to keep the Biblical 7th-day Sabbath and other Holy days of the Bible Holy.
 
@@ -15,44 +14,43 @@ The app uses internal, offline calculations (via the SolarTime module) and the c
 There is also an option to manually override it as well, which is useful for other Biblical Holy days.
 
 
-# Features
+## Features
 
-  * Simple setup
-  * 2 ways to use it
-  * Automatically redirects when it is the 7th day Sabbath
-  * Support for manual overriding
-  * Supports Django 2.2, 3.0 +
+- Simple setup
+- 2 ways to use it
+- Automatically redirects when it is the 7th day Sabbath
+- Support for manual overriding
+- Supports Django 3.2+
 
 
-# Basis
+## Requirements
+
+**Python 3.8 or higher**
+
+- ``django`` 3.2+
+- ``pytz``
+- ``solartime`` module (optional)
+
+
+## Documentation
+
+The documentation can be found in the demo: ``example/examplewebsite``.
+
+
+## Basis
 
 The timing is based on the understanding that the 7th-day Sabbath day starts on 6th day ("Friday") evening and ends on 7th day ("Saturday") evening, according to the Bible.
 
-*"If thou turn away thy foot from the sabbath, from doing thy pleasure on My holy day; and call the sabbath a delight, the holy of Yahweh, honourable; and shalt honour him, not doing thine own ways, nor finding thine own pleasure, nor speaking thine own words:
-Then shalt thou delight thyself in Yahweh; and I will cause thee to ride upon the high places of the earth, and feed thee with the heritage of Jacob thy father: for the mouth of Yahweh hath spoken it." -Isaiah 58:13-14*
+*"If thou turn away thy foot from the sabbath, from doing thy pleasure on My holy day; and call the sabbath a delight, the holy of Yahweh, honourable; and shalt honour him, not doing thine own ways, nor finding thine own pleasure, nor speaking thine own words: Then shalt thou delight thyself in Yahweh; and I will cause thee to ride upon the high places of the earth, and feed thee with the heritage of Jacob thy father: for the mouth of Yahweh hath spoken it." -Isaiah 58:13-14*
 
 There are many more verses regarding the importance of keeping the 7th-day Sabbath in the Bible.
 
 
-# Requirements
-
-  **Python 3.5 or higher**
-
-  * ``django`` 2.2, 3.0+
-  * ``pytz``
-  * ``solartime`` module (optional)
-
-
-# Documentation
-
-The documentation can be found in the Keep-Sabbath demo.
-
-
-# Development
+## Development
 
 Help improving this package to meet the project goals is always welcome. :)
 
 
-# License
+## License
 
-Keep-Sabbath is licensed under the BSD 3-Clause License. See the LICENSE for full copyright and license information.
+Keep-Sabbath is licensed under the BSD 3-Clause License. Feel free to use as needed in your own projects. See the LICENSE for full copyright and license information.
